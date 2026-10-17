@@ -1,0 +1,171 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Basics | My Learning Guide</title>
+    <meta name="description" content="Learn basic HTML structure, elements, lists and links with simple examples.">
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+
+    <header>
+        <h1>HTML Basics</h1>
+        <p>Learning how to build a webpage</p>
+    </header>
+
+    <nav aria-label="Main navigation">
+        <a href="../index.html">Home</a>
+        <a href="html-basics.html" aria-current="page">HTML Basics</a>
+        <a href="css-basics.html">CSS Basics</a>
+        <a href="process.html">Process</a>
+    </nav>
+
+    <main>
+        <section>
+            <h2>What Is HTML?</h2>
+            <p>
+                HTML stands for HyperText Markup Language.
+                It is used to organise content on a webpage.
+            </p>
+            <p>
+                For example, HTML can create headings, paragraphs,
+                lists, links and images.
+            </p>
+        </section>
+
+        <section>
+            <h2>Basic HTML Structure</h2>
+            <p>
+                Every HTML page needs a basic document structure.
+                The following example shows its main parts.
+            </p>
+
+            <pre><code>&lt;!DOCTYPE html&gt;
+&lt;html lang="en"&gt;
+&lt;head&gt;
+    &lt;title&gt;My First Page&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;h1&gt;Hello World&lt;/h1&gt;
+    &lt;p&gt;This is my first webpage.&lt;/p&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre>
+
+            <p>
+                The head contains page information.
+                The body contains the content shown in the browser.
+            </p>
+        </section>
+
+        <section>
+            <h2>Common HTML Elements</h2>
+            <ul>
+                <li><code>h1</code> creates the main heading.</li>
+                <li><code>p</code> creates a paragraph.</li>
+                <li><code>a</code> creates a link.</li>
+                <li><code>ul</code> creates a bullet list.</li>
+                <li><code>li</code> creates a list item.</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Example of a List</h2>
+            <p>An unordered list shows items with bullet points.</p>
+
+            <ul>
+                <li>Learn HTML</li>
+                <li>Practise CSS</li>
+                <li>Build a website</li>
+            </ul>
+
+            <p>An ordered list shows items in sequence.</p>
+
+            <ol>
+                <li>Create an HTML file.</li>
+                <li>Write the content.</li>
+                <li>Open the file in a browser.</li>
+            </ol>
+        </section>
+
+        <section>
+            <h2>Common HTML Elements Table</h2>
+            <p>
+                This table explains some common HTML elements and their uses.
+            </p>
+
+            <table>
+                <caption>Common HTML Elements and Their Uses</caption>
+                <thead>
+                    <tr>
+                        <th scope="col">HTML Element</th>
+                        <th scope="col">Purpose</th>
+                        <th scope="col">Example</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">&lt;h1&gt;</th>
+                        <td>Creates a main heading.</td>
+                        <td>Page title</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">&lt;p&gt;</th>
+                        <td>Creates a paragraph.</td>
+                        <td>Text content</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">&lt;a&gt;</th>
+                        <td>Creates a link.</td>
+                        <td>Another page</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">&lt;ul&gt;</th>
+                        <td>Creates a bullet list.</td>
+                        <td>List of topics</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">&lt;img&gt;</th>
+                        <td>Displays an image.</td>
+                        <td>Picture or diagram</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section>
+            <h2>Why Semantic HTML Matters</h2>
+            <p>
+                Semantic elements describe the purpose of content.
+                For example, header, nav, main and footer help
+                organise a webpage clearly.
+            </p>
+            <p>
+                Clear structure can also help people using
+                assistive technologies understand a page.
+            </p>
+        </section>
+
+        <section>
+            <h2>Continue Learning</h2>
+            <p>
+                Visit the
+                <a href="css-basics.html">CSS Basics page</a>
+                to learn how CSS changes the appearance of a webpage.
+            </p>
+        </section>
+    </main>
+
+    <footer>
+        <p>Author: AH | &copy; 2026 My Learning Guide</p>
+        <p>Created for educational purposes.</p>
+        <p>
+            <a href="mailto:ahmed.hossen@knf.stud.vu.lt">
+                Contact me
+            </a>
+        </p>
+    </footer>
+
+</body>
+</html>
