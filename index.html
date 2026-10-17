@@ -1,0 +1,201 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Learning Guide</title>
+    <meta name="description" content="A simple guide to learning HTML and CSS.">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+    <header>
+        <h1>My Learning Guide</h1>
+        <p>Learning HTML and CSS step by step</p>
+    </header>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="pages/html-basics.html">HTML Basics</a>
+        <a href="pages/css-basics.html">CSS Basics</a>
+        <a href="pages/process.html">Process</a>
+    </nav>
+
+    <main>
+
+        <section>
+            <h2>CSS Box Model Gallery</h2>
+            <p>These images show different parts of the CSS box model.</p>
+
+            <div class="gallery">
+
+                <figure>
+                    <img src="images/Box_model_CSS.png"
+                         alt="Diagram showing the CSS box model">
+                    <figcaption>
+                        <strong>CSS Box Model</strong>
+                        <p>Author: Charles Calvert</p>
+                        <p>Licence: CC BY-SA 4.0</p>
+                        <p>
+                            Source:
+                            <a href="https://commons.wikimedia.org/wiki/File:Box_model_CSS.png">
+                                Wikimedia Commons
+                            </a>
+                        </p>
+                        <a href="https://creativecommons.org/licenses/by-sa/4.0/">
+                            View licence
+                        </a>
+                    </figcaption>
+                </figure>
+
+                <figure>
+                    <img src="images/Box-model.webp"
+                         alt="Diagram explaining the CSS box model">
+                    <figcaption>
+                        <strong>Box Model</strong>
+                        <p>Author: Felix.leg</p>
+                        <p>Licence: GNU Free Documentation License 1.2 or later</p>
+                        <p>
+                            Source:
+                            <a href="https://commons.wikimedia.org/wiki/File:Box-model.svg">
+                                Wikimedia Commons
+                            </a>
+                        </p>
+                        <a href="https://www.gnu.org/licenses/fdl-1.2.html">
+                            View licence
+                        </a>
+                    </figcaption>
+                </figure>
+
+                <figure>
+                    <img src="images/Boxmodell-detail.webp"
+                         alt="Detailed illustration of the CSS box model">
+                    <figcaption>
+                        <strong>Box Model Details</strong>
+                        <p>Original author: Günther M. Apsel</p>
+                        <p>Vector author: Valtlai</p>
+                        <p>Licence: CC0 1.0 Universal</p>
+                        <p>
+                            Source:
+                            <a href="https://commons.wikimedia.org/wiki/File:Boxmodell-detail.svg">
+                                Wikimedia Commons
+                            </a>
+                        </p>
+                        <a href="https://creativecommons.org/publicdomain/zero/1.0/">
+                            View licence
+                        </a>
+                    </figcaption>
+                </figure>
+
+                <figure>
+                    <img src="images/CSS_BOX_MODEL.png"
+                         alt="Illustration showing the CSS box model">
+                    <figcaption>
+                        <strong>CSS Box Model</strong>
+                        <p>Author: Diego Mariano</p>
+                        <p>Licence: CC BY-SA 4.0</p>
+                        <p>
+                            Source:
+                            <a href="https://commons.wikimedia.org/wiki/File:CSS_BOX_MODEL.png">
+                                Wikimedia Commons
+                            </a>
+                        </p>
+                        <a href="https://creativecommons.org/licenses/by-sa/4.0/">
+                            View licence
+                        </a>
+                    </figcaption>
+                </figure>
+
+                <figure>
+                    <img src="images/Css_box_model.webp"
+                         alt="Diagram showing content, padding, border and margin">
+                    <figcaption>
+                        <strong>CSS Box Model</strong>
+                        <p>Author: Lazar.S.Mladenovic</p>
+                        <p>Licence: CC BY-SA 4.0</p>
+                        <p>
+                            Source:
+                            <a href="https://commons.wikimedia.org/wiki/File:Css_box_model.svg">
+                                Wikimedia Commons
+                            </a>
+                        </p>
+                        <a href="https://creativecommons.org/licenses/by-sa/4.0/">
+                            View licence
+                        </a>
+                    </figcaption>
+                </figure>
+
+            </div>
+        </section>
+
+        <section>
+            <h2>Learning Feedback</h2>
+            <p>Please share your feedback about this website.</p>
+
+            <form onsubmit="return false;">
+
+                <label for="visitor-name">Your name:</label>
+                <input type="text" id="visitor-name"
+                       name="visitor-name" required>
+
+                <label for="visitor-email">Your email:</label>
+                <input type="email" id="visitor-email"
+                       name="visitor-email" required>
+
+                <label for="feedback-topic">What did you learn?</label>
+                <select id="feedback-topic" name="feedback-topic" required>
+                    <option value="">Choose a topic</option>
+                    <option value="html">HTML Basics</option>
+                    <option value="css">CSS Basics</option>
+                    <option value="box-model">CSS Box Model</option>
+                </select>
+
+                <fieldset>
+                    <legend>How useful was this website?</legend>
+
+                    <label>
+                        <input type="radio" name="rating"
+                               value="useful" required>
+                        Useful
+                    </label>
+
+                    <label>
+                        <input type="radio" name="rating"
+                               value="very-useful">
+                        Very useful
+                    </label>
+
+                    <label>
+                        <input type="radio" name="rating"
+                               value="needs-improvement">
+                        Needs improvement
+                    </label>
+                </fieldset>
+
+                <label for="feedback-message">Your feedback:</label>
+                <textarea id="feedback-message"
+                          name="feedback-message"
+                          rows="4" required></textarea>
+
+                <button type="submit">Submit Feedback</button>
+
+            </form>
+
+            <p>This form is for demonstration only. It does not send or save your answers.</p>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>Author: AH | &copy; 2026 My Learning Guide</p>
+        <p>Created for educational purposes.</p>
+        <p>
+            <a href="mailto:ahmed.hossen@knf.stud.vu.lt">
+                Contact me
+            </a>
+        </p>
+    </footer>
+
+</body>
+</html>
